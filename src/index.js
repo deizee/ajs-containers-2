@@ -1,2 +1,1 @@
-import './js/Character';
-import './js/Team';
+import './js/ErrorRepository';

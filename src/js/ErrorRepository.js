@@ -8,8 +8,10 @@ class ErrorRepository {
 
     if (error) {
       return error;
-    } else {
-      return 'Unknown error';
     }
+
+    return 'Unknown error';
   }
 }
+
+export default ErrorRepository;
